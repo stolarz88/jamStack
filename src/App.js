@@ -6,9 +6,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Test of Deployment, Stolarz v2.0
+          Test of Deployment, Stolarz v2.1
         </p>
         <a
           className="App-link"
