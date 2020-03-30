@@ -1,10 +1,6 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  font-size: 16px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,14 +9,28 @@
   }
 }
 
-.App-header {
+.App__header {
   min-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 1rem;
+  img {
+    max-width: 320px;
+  }
+  &--intro {
+      display: flex;
+      width: 25vw;
+      align-items: center;
+      flex-direction: column;
+      h1, h2, h3, h4 {
+          font-size: 1.2rem;
+          line-height: 1.5em;
+          padding:0;
+          margin:0;
+      }
+  }
 }
 
 .App-content {
