@@ -1,3 +1,14 @@
+@import 'styles/button.scss';
+
+@font-face {
+  font-family: Cyber;
+  src: url("https://assets.codepen.io/605876/Blender-Pro-Bold.otf");
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
   font-size: 16px;
@@ -35,10 +46,15 @@
 
 .App-content {
   padding: 20px;
+  
 }
 
 .App-link {
   color: #61dafb;
+}
+
+button {
+  font-family: 'Cyber', sans-serif;
 }
 
 @keyframes App-logo-spin {
