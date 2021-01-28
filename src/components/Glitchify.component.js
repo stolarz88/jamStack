@@ -22,7 +22,7 @@ const Glitchify = ({ children, steps, font, fontSize, color, background }) => {
     color: ${color};
     text-align: center;
     position: relative;
-    margin-top: 3vw;
+    margin-top: 0vw;
     margin-right: auto;
     margin-left: auto;
     &,
