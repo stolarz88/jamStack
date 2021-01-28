@@ -29,6 +29,7 @@ const PageWrapper = (props) => {
           </Glitchify>
 
           <h2>User Experience/Frontend Engineer!</h2>
+          <img src="/cyberpunk.jpg" />
         </div>
         <a
           href="https://www.linkedin.com/in/stolarz88/"
