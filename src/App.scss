@@ -12,6 +12,15 @@
 .App {
   text-align: center;
   font-size: 16px;
+  cursor: none !important;
+  .cursor {
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    mix-blend-mode: difference;
+    z-index: 1000;
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -21,16 +30,22 @@
 }
 
 .App__header {
-  min-height: 20vh;
   display: flex;
+  max-height: 100px;
+  padding: 3rem 0;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: 1rem;
+  background: #61dafb;
   img {
-    max-width: 320px;
+    max-width: 250px;
   }
-  &--intro {
+}
+
+.App-content {
+  padding: 20px;
+  &--content {
     display: flex;
     width: 25vw;
     align-items: center;
@@ -46,10 +61,6 @@
       margin: 0;
     }
   }
-}
-
-.App-content {
-  padding: 20px;
 }
 
 .App-link {

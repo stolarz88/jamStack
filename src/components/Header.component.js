@@ -1,5 +1,4 @@
 import React from "react";
-import Glitchify from "../components/Glitchify.component";
 
 const Header = (props) => {
   return (
@@ -9,13 +8,6 @@ const Header = (props) => {
         alt="Logo for Matthew Stolarz"
         src="logo.png"
       />
-      <div className="App__header--intro">
-        <Glitchify font="Cyber" fontSize="2rem">
-          Matthew Stolarz
-        </Glitchify>
-
-        <h2>User Experience/Frontend Engineer!</h2>
-      </div>
     </header>
   );
 };
