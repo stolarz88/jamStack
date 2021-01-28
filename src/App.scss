@@ -1,4 +1,4 @@
-@import 'styles/button.scss';
+@import "styles/button.scss";
 
 @font-face {
   font-family: Cyber;
@@ -31,22 +31,25 @@
     max-width: 320px;
   }
   &--intro {
-      display: flex;
-      width: 25vw;
-      align-items: center;
-      flex-direction: column;
-      h1, h2, h3, h4 {
-          font-size: 1.2rem;
-          line-height: 1.5em;
-          padding:0;
-          margin:0;
-      }
+    display: flex;
+    width: 25vw;
+    align-items: center;
+    flex-direction: column;
+    h1,
+    h2,
+    h3,
+    h4 {
+      font-family: Cyber;
+      font-size: 1.2rem;
+      line-height: 1.5em;
+      padding: 0;
+      margin: 0;
+    }
   }
 }
 
 .App-content {
   padding: 20px;
-  
 }
 
 .App-link {
@@ -54,7 +57,7 @@
 }
 
 button {
-  font-family: 'Cyber', sans-serif;
+  font-family: "Cyber", sans-serif;
 }
 
 @keyframes App-logo-spin {
